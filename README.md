@@ -4,7 +4,7 @@ Code for the "Generating Expressive and Customizable Evals for Timeseries Data A
 
 ## Prerequisites
 
-This tool assumes the agent and its backing data source are already set up (e.g. a Databricks Genie Space with the relevant tables loaded). 
+This code assumes the agent and its backing data source are already set up (e.g. a Databricks Genie Space with the relevant tables loaded). 
 Contact the owners of this repo for access, or set up your own data sources using the dataset files in `orig_data/`.  
 
 ## Setup
