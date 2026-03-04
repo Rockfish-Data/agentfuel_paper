@@ -1,0 +1,2 @@
+agent_type: rflangchain
+env_filepath: agents/rflangchain/wind_data_no_context.env

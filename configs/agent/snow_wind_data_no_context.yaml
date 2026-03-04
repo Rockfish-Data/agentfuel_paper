@@ -1,0 +1,2 @@
+agent_type: snowflake
+env_filepath: agents/snow/wind_data_no_context.env

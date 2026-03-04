@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+0,,basic,How many unique users are there?,100
+1,,basic,"Where user_id is USER_2, how many records are there?",45
+2,,basic,What's the highest count of records across all users?,354
+3,,basic,Which user has the most records?,USER_9
+4,,basic,What's the lowest count of records across all users?,2
+5,,basic,How many unique referrers are there?,4
+6,,basic,"Where referrer is search, how many records are there?",1283
+7,,basic,What's the highest count of records across all referrers?,1868
+8,,basic,Which referrer has the most records?,email
+9,,basic,What's the lowest count of records across all referrers?,1208
+10,,basic,Which referrer has the fewest records?,direct
+11,,basic,How many unique pages are there?,7

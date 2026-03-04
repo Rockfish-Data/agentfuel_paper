@@ -1,0 +1,13 @@
+dataset_id: 1Cl56G4HQhTCwZOEqwghhq
+# csv_file: ../orig_data/iot_device_data.csv
+dataset_name: iot_device
+categorical:
+ - device_type
+ - location_zone
+ - firmware_version
+measurement:
+ - battery_level
+ - signal_strength
+timestamp_column: timestamp
+variations: 0
+output: iot_test_suite.json

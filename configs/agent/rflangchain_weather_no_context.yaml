@@ -1,0 +1,2 @@
+agent_type: rflangchain
+env_filepath: agents/rflangchain/weather_no_context.env

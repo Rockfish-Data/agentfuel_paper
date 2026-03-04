@@ -1,0 +1,2 @@
+workload_type: telecom_manual
+data_filepath: workload_data/telecom_incident.csv

@@ -1,0 +1,2 @@
+agent_type: snowflake
+env_filepath: agents/snow/telecom_no_context.env

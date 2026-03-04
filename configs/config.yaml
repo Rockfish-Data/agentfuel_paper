@@ -1,0 +1,3 @@
+defaults:
+  - agent: dbrx_wind_data_no_context
+  - workload: wind_data_test

@@ -1,0 +1,2 @@
+workload_type: wind_data
+data_filepath: workload_data/wind_data_test.csv

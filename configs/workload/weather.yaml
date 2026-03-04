@@ -1,0 +1,2 @@
+workload_type: weather
+data_filepath: workload_data/weather.csv

@@ -1,0 +1,13 @@
+dataset_id: 5G425Osg4SKfD0uJWvYuTh
+# csv_file: ../orig_data/bitcoin.csv
+dataset_name: bitcoin
+categorical:
+ - code
+ - crypto
+ - description
+ - symbol
+measurement:
+ - price
+timestamp_column: timestamp
+variations: 0
+output: bitcoin_test_suite.json

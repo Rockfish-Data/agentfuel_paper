@@ -1,0 +1,2 @@
+agent_type: dbrx
+env_filepath: agents/dbrx/iot_stateful_no_context.env

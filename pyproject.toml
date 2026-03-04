@@ -1,0 +1,20 @@
+[project]
+name = "agentfuel-exp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.12.0",
+    "databricks-sdk>=0.86.0",
+    "hydra-core>=1.3.2",
+    "jupyter>=1.1.1",
+    "pandas==2.3",
+    "pandasai==3.0.0",
+    "pandasai-litellm>=0.0.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "snowflake-connector-python>=4.3.0",
+    "torch>=2.10.0",
+    "transformers>=5.1.0",
+]

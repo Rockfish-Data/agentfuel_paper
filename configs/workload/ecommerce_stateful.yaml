@@ -1,0 +1,2 @@
+workload_type: ecommerce_manual
+data_filepath: workload_data/ecommerce_stateful.csv

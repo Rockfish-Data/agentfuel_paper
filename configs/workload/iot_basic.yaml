@@ -1,0 +1,2 @@
+workload_type: iot_manual
+data_filepath: workload_data/iot_basic.csv

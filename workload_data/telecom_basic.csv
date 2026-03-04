@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+9,,basic,"Where Transport_Interface_ID is eth3 or eth2, what's the average RRC_ConnEstabSucc?",110.987
+11,,basic,"Where RRC_ConnEstabSucc is over 110.96, what's the average Cell_Availability?",99.499
+16,,basic,"In the last 12 hours of data, what's the average DL_PRB_Utilization?",71.611
+18,,basic,"In the first 12 hours of data, what's the average RRC_ConnEstabSucc?",96.778
+29,,basic,What's the highest average Cell_Availability across all Transport Devices?,99.5
+33,,basic,What's the lowest average DL_PRB_Utilization across all Transport Devices?,60.972
+34,,basic,Which Transport Device has the lowest average DL_PRB_Utilization?,RTR_004
+37,,basic,"Where Transport_Device_ID is RTR_004 or RTR_002, what's the highest average Cell_Availability across all Transport Interfaces?",99.499
+38,,basic,"Where Transport_Device_ID is RTR_004 or RTR_002, which Transport Interface has the highest average Cell_Availability?",eth1
+39,,basic,"Where Transport_Interface_ID is eth1, what's the lowest standard deviation of DL_PRB_Utilization across all Transport Devices?",20.076
+44,,basic,"In the last 12 hours of data, which Transport Interface has the highest total RRC_ConnEstabFail?",eth1
+45,,basic,"In the last 24 hours of data, what's the highest average Cell_Availability across all Transport Devices?",99.501

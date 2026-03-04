@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+0,,stateful,How many sensors exceeded a warning threshold more than 3 times in 12 hours without triggering maintenance?,112 sensors
+1,,stateful,Did sensors on firmware v1.0 ever reach critical state?,96 sensors
+2,,stateful,What is the average time between threshold exceeded and maintenance required?,2 hr 10 mins
+3,,stateful,"Were any v2.0 sensors in warning, critical, maintenance, and then operational?",59 sensors
+4,,stateful,How many readings were recorded after maintenance was required?,21937 readings
+5,,stateful,Did any sensors go from warning to critical without maintenance within an hour?,324 sensors
+6,,stateful,Did any v1.1 sensors raise warnings more than 3 times without ever reaching a critical status?,35 sensors
+7,,stateful,"Which sensors reached critical status, and what location zone were they in?","324 sensors: zone_A=88, zone_C=81, zone_B=80, zone_D=75"
+8,,stateful,How many readings were recorded while sensors were being maintained? Show me a breakdown by device type.,"68 readings: humidity_sensor=9, pressure_sensor=27, temperature_sensor=32"
+9,,stateful,How long on average do devices stay in critical status before entering maintenance? Show me a breakdown by device type.,"humidity_sensor=1 hr 18 min 52 sec, pressure_sensor=2 hr 57 min 32 sec, temperature_sensor=1 hr 49 min 8 sec"
+10,,stateful,What are the most common state transitions from degraded status to operational or offline? Show me the results according to the device location.,"zone_A: warning->operational=204, critical->offline=26; zone_B: warning->operational=214, critical->offline=19; zone_C: warning->operational=202, critical->offline=22; zone_D: warning->operational=154, critical->offline=25"
+11,,stateful,What percentage of time do devices spend in each status? Show me a breakdown by device type.,"humidity_sensor: operational=91.40%, warning=3.82%, critical=3.12%, maintenance=1.66%; pressure_sensor: operational=87.16%, critical=8.69%, warning=2.63%, maintenance=1.53%; temperature_sensor: operational=82.28%, critical=9.51%, warning=5.18%, maintenance=3.03%"

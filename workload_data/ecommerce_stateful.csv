@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+0,,stateful,How many users added more than 4 items within 1 hour to the cart but exited without purchasing?,0 users
+1,,stateful,Did premium users make purchases?,15 users
+2,,stateful,What is the average time between viewing a product and adding it to cart?,13.7 mins
+3,,stateful,"Did users view, add to cart, checkout, and then purchase?",63 sessions
+4,,stateful,How many product views after cart abandonment?,0 views
+5,,stateful,Did any users add to cart but not checkout within 5 minutes?,78 users
+6,,stateful,Did any users view products more than 3 times without adding to cart?,0 users
+7,,stateful,"Which users reached the checkout stage, and where were these users acquired from?","56 unique users, top 3 referrers: email, social, direct"
+8,,stateful,How many product views occurred while users had an item in their cart?,599 views
+9,,stateful,How long on average do users spend with items in cart before purchasing or abandoning?,"Purchasing: 7.7 mins, Abandoning: 8.3 mins"
+10,,stateful,What are the common state transitions from browsing to purchase or abandonment?,"Top 3: search -> product (2170), product -> search (1997), product -> cart (329)"
+11,,stateful,What percentage of time do users spend in each page?,"product=42.97%, search=40.09%, homepage=9.24%, cart=6.08%, checkout=1.63%"

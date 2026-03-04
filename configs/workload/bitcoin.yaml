@@ -1,0 +1,2 @@
+workload_type: bitcoin
+data_filepath: workload_data/bitcoin.csv

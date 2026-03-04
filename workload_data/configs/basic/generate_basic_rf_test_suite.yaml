@@ -1,0 +1,33 @@
+# Analytics Test Suite Generator - Config
+# Run with: python generate_basic_rf_test_suite.py --config generate_basic_rf_test_suite.yaml
+
+# Dataset source: provide one of csv_file or dataset_id
+csv_file: your_data.csv
+# dataset_id: abc123  # use this instead if you've already uploaded
+
+# Optional: name for the uploaded dataset
+# dataset_name: sales-analysis-2024
+
+# Schema: list column names explicitly, or omit both to auto-discover
+# categorical:
+#   - store
+#   - region
+#   - category
+# measurement:
+#   - revenue
+#   - transactions
+#   - units_sold
+
+# Timestamp column to enable time-based queries
+# (e.g. "Over the past 7 days, what's the total revenue?")
+# timestamp_column: date
+
+# Number of paraphrased variations per question (0 = none, faster)
+# Each variation requires an LLM call, adding ~2-3 sec per question
+variations: 0
+
+# Maximum test cases to generate (omit for all, typically ~46)
+# max_cases: 20
+
+# Output file path
+output: test_suite_output.json

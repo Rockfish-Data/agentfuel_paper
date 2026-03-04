@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+0,,incident,Did the router that caused the outage have elevated packet loss on January 2 morning?,"Yes, 3.2x more packet loss"
+1,,incident,What was the average latency on the affected router link during the incident?,19.69 ms
+2,,incident,How many transport links were experiencing high packet loss during the outage?,"1, Device_ID=RTR_001, Interface_ID=eth0"
+3,,incident,Which transport link had the worst latency during the outage?,"Device_ID=RTR_001, Interface_ID=eth0"
+4,,incident,Were connection failures elevated on cells behind the affected router during the outage?,"Yes, 3.7x more failures"
+5,,incident,What was the average connection failure rate on cells behind the affected router during the outage?,13.84
+6,,incident,How many cells lost availability during the outage on January 2?,19
+7,,incident,Which 5 cells had the most connection failures during the outage?,"CELL_62, CELL_67, CELL_28, CELL_45, CELL_80"
+8,,incident,"Were connection failures elevated on cells behind the affected router during the outage, while the core nodes were also under load?","Yes, cell connection failures were 3.7x higher, core node CPU load was 1.1x higher"
+9,,incident,"Were connection failures elevated on cells behind the affected router during the outage, even though core node session counts looked normal?","Yes, cell connection failures were 3.7x higher"
+10,,incident,"How many cells lost availability during the outage on January 2, while the core nodes were also under load?",19
+11,,incident,"How many cells lost availability during the outage on January 2, compared to the same time the day before when core nodes were healthy?",19

@@ -1,0 +1,13 @@
+dataset_id: WiUZWC3kXdLyTCObytoFs
+# csv_file: ../orig_data/wind_data.csv
+dataset_name: wind_data
+categorical:
+ - country
+ - county
+ - city
+measurement:
+ - wind_speed
+ - wind_direction
+timestamp_column: timestamp
+variations: 0
+output: wind_data_test_suite.json

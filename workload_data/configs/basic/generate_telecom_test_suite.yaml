@@ -1,0 +1,15 @@
+dataset_id: 2smxupapzq7TTeb22uTeso
+# csv_file: ../orig_data/cell_site_data.csv
+dataset_name: cell_site
+categorical:
+ - Transport_Device_ID
+ - Transport_Interface_ID
+measurement:
+ - Cell_Availability
+ - RRC_ConnEstabSucc
+ - RRC_ConnEstabFail
+ - DL_PRB_Utilization
+ - Cell_Availability
+timestamp_column: Timestamp
+variations: 0
+output: telecom_test_suite.json

@@ -1,0 +1,13 @@
+query_id,parent_query_id,query_type,query,answer
+14,,basic,"Where location_zone is zone_C or zone_A, what's the average battery_level?",70.005
+15,,basic,"Where battery_level is over 70, how many records are there?",25186
+19,,basic,"Where battery_level is between 42.15 and 70, what's the average battery_level?",69.334
+20,,basic,"Where signal_strength is between 40.24 and 74.96, what's the total signal_strength?",1798817.34
+21,,basic,"In the last 12 hours of data, what's the total battery_level?",1621294.449
+22,,basic,"In the last 24 hours of data, what's the average signal_strength?",74.961
+23,,basic,"In the first 12 hours of data, what's the average battery_level?",69.986
+33,,basic,Which location zone has the highest average battery_level?,zone_C
+34,,basic,What's the highest standard deviation of signal_strength across all device types?,3.571
+38,,basic,"Where device_type is humidity_sensor, what's the highest average battery_level across all firmware versions?",70.011
+41,,basic,"Where device_type is temperature_sensor or pressure_sensor, which firmware version has the lowest total battery_level?",v1.0
+43,,basic,"Where firmware_version is v1.0, which device type has the lowest average signal_strength?",temperature_sensor

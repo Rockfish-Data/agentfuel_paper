@@ -1,0 +1,14 @@
+dataset_id: 7IgzotCveTzharS1bo7ZMN
+# csv_file: ../orig_data/weather.csv
+dataset_name: weather
+categorical:
+ - location
+measurement:
+ - wind_avg
+ - precip
+ - temp_avg
+ - temp_max
+ - temp_min
+timestamp_column: timestamp
+variations: 0
+output: weather_test_suite.json

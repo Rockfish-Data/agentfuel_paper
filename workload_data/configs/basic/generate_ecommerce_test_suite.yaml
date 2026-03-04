@@ -1,0 +1,10 @@
+dataset_id: 6432XVPLksHZx5oDlzFGzP
+# csv_file: ../orig_data/ecommerce_sessions_data.csv
+dataset_name: ecommerce_sessions
+categorical:
+ - user_id
+ - referrer
+ - page
+timestamp_column: timestamp
+variations: 0
+output: ecommerce_test_suite.json

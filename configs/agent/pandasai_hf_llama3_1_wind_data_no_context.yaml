@@ -1,0 +1,2 @@
+agent_type: pandas_ai
+env_filepath: agents/pandasai/hf_llama3_1_wind_data_no_context.env
