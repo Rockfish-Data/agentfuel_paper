@@ -1,6 +1,6 @@
 # AgentFuel Code
 
-Utility to benchmark data analysis agents using natural language query workloads.
+Code for the "Generating Expressive and Customizable Evals for Timeseries Data Analysis Agents with AgentFuel" paper.
 
 ## Prerequisites
 
