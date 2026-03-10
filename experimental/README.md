@@ -2,8 +2,12 @@
 
 ## External Benchmark Analysis
 
-`analyze_bird_livesqlbench-base-full-v1.ipynb` and `analyze_spider2_snow.ipynb` analyze results from the Bird LiveSQLBench and Spider2-Snow benchmarks respectively. 
-The corresponding data files (`livesqlbench_data.jsonl`, `spider2-snow.jsonl`, `spider2snow_gold_sql.csv`) are checked in.
+External benchmarks like Spider2-Snow, BIRD LiveSQLBench, and Beaver are analyzed in the respective `analyze_*.ipynb` notebooks. 
+
+The external benchmark data files are also checked in:
+1. Spider2-Snow: `spider2-snow.jsonl`, `spider2snow_gold_sql.csv` 
+2. BIRD LiveSQLBench: `livesqlbench_data.jsonl`
+3. Beaver: `beaver_dev_dw.json`, `beaver_dev_nw.json`
 
 To download fresh Spider2-Snow gold SQL from the xlang-ai/Spider2 GitHub repository, set a `GITHUB_PAT` environment variable and run:
 
@@ -11,7 +15,7 @@ To download fresh Spider2-Snow gold SQL from the xlang-ai/Spider2 GitHub reposit
 python download_spider2_snow.py
 ```
 
-`utils.py` contains shared helper functions for evaluating agent responses, including keyword-based detection for anomaly and ordering queries.
+`utils.py` contains shared helper functions for evaluating benchmark queries, including keyword-based detection for anomaly and ordering queries.
 
 ## Manual Inspection for PandasAI Agents
 
