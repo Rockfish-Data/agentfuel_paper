@@ -8,6 +8,7 @@ The external benchmark data files are also checked in:
 1. Spider2-Snow: `spider2-snow.jsonl`, `spider2snow_gold_sql.csv` 
 2. BIRD LiveSQLBench: `livesqlbench_data.jsonl`
 3. Beaver: `beaver_dev_dw.json`, `beaver_dev_nw.json`
+4. KramaBench: JSON files inside the `kramabench_workloads/` directory
 
 To download fresh Spider2-Snow gold SQL from the xlang-ai/Spider2 GitHub repository, set a `GITHUB_PAT` environment variable and run:
 

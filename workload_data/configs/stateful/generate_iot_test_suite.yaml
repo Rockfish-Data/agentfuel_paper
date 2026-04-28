@@ -1,0 +1,14 @@
+configs:
+  - csv_file: ../orig_data/iot_device_data.csv
+    dataset_name: iot_device
+    entity_column: device_id
+    event_type_column: event_type
+    timestamp_column: timestamp
+    variations: 0
+    max_cases: 15
+  - entity_column: device_id
+    event_type_column: device_state
+    timestamp_column: timestamp
+    variations: 0
+    max_cases: 15
+output: iot_stateful_test_suite.json

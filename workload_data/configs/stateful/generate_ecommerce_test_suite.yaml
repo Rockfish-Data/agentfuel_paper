@@ -1,0 +1,14 @@
+configs:
+  - csv_file: ../orig_data/ecommerce_sessions_data.csv
+    dataset_name: ecommerce_sessions
+    entity_column: session_id
+    event_type_column: action
+    timestamp_column: timestamp
+    variations: 0
+    max_cases: 15
+  - entity_column: session_id
+    event_type_column: page
+    timestamp_column: timestamp
+    variations: 0
+    max_cases: 15
+output: ecommerce_stateful_test_suite.json
