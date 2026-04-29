@@ -158,7 +158,7 @@ Update that file or change the config to use a different path.
 Follow the same process to generate the stateful query test suite (example command for the IoT domain shown below):
 
 ```bash
-uv run python workload_data/generate_stateful_rf_test_suite.py --config workload_data/config/basic/generate_iot_test_suite.yaml
+uv run python workload_data/generate_stateful_rf_test_suite.py --config workload_data/config/stateful/generate_iot_test_suite.yaml
 ```
 
 ### 3. Run the experiment
