@@ -102,7 +102,14 @@ ROCKFISH_DATASET_ID=<your-dataset-id>
 
 ### 2. Prepare a workload CSV
 
-Copy `workload_data/.env.example` to `workload_data/.env` and fill in your Rockfish credentials.
+Create `workload_data/.env` and fill in your Rockfish credentials:
+
+```
+ROCKFISH_API_KEY=<your-rockfish-api-key>
+ROCKFISH_PROJECT_ID=<your-rockfish-project-id>
+ROCKFISH_ORGANIZATION_ID=<your-rockfish-organization-id>
+ROCKFISH_AGENTFUEL_API_URL=https://labs.rockfish.ai
+```
 
 Then generate a test suite JSON from your dataset using the Rockfish API. 
 Edit `workload_data/generate_rf_test_suite.yaml` to point to your CSV file and set any other options, then run:
@@ -147,6 +154,12 @@ query_id,parent_query_id,query_type,query,answer
 
 The default workload config (`configs/workload/wind_data_test.yaml`) points to `workload_data/wind_data_test.csv`.
 Update that file or change the config to use a different path.
+
+Follow the same process to generate the stateful query test suite (example command for the IoT domain shown below):
+
+```bash
+uv run python workload_data/generate_stateful_rf_test_suite.py --config workload_data/config/basic/generate_iot_test_suite.yaml
+```
 
 ### 3. Run the experiment
 
